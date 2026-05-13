@@ -555,46 +555,103 @@ window.location.href =
 📞 <a href="tel:8390825091" style="text-decoration:none; color:#000;">    
 8390825091    
 </a>    
-</p>  <p>    
+</p> 
+<p>
+📍 <a href="https://maps.google.com/?q=Khadi+Machine+Chowk,+Kondhwa,+Pune,+Maharashtra"
+style="text-decoration:none; color:#000;" target="_blank">
+Khadi Machine Chowk, Kondhwa, Pune, Maharashtra
+</a>
+</p>
+
+ <p>    
 ✉️     
 <a href="mailto:shivcorecutting@gmail.com"     
 style="text-decoration:none; color:#000;">    
 shivcorecutting@gmail.com    
 </a>    
-</p>  </section>  <footer>    
-© Shiv Core Cutting Services Pune    
-</footer>  <a href="https://wa.me/918390825091" class="whatsapp">    
+</p> 
+ </section>
+ 
+ <footer>
+© Shiv Core Cutting Services<br>
+📞 <a href="tel:8390825091" style="color:#fff;text-decoration:none;">
+8390825091
+</a>
+</footer>
+
+ <a href="https://wa.me/918390825091" class="whatsapp">    
 <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp">    
 </a>  <script>    
 function toggleMenu(){    
 var nav=document.getElementById("nav");    
 nav.style.display = (nav.style.display==="flex")?"none":"flex";    
 }    
-</script>  <script type="application/ld+json">    
-{    
-  "@context":"https://schema.org",    
-  "@type":"LocalBusiness",    
-  "name":"Shiv Core Cutting Services",    
-  "image":"https://shivcorecutting.com/images/core-cutting-pune.webp",    
-  "url":"https://shivcorecutting.com",    
-  "telephone":"+918390825091",    
-  "address":{    
-    "@type":"PostalAddress",    
-    "addressLocality":"Pune",    
-    "addressRegion":"Maharashtra",    
-    "addressCountry":"IN"    
-  },    
-  "areaServed":[    
-    "Kondhwa",    
-    "Hadapsar",    
-    "Wakad",    
-    "Kharadi",    
-    "Kothrud",    
-    "Yerwada",    
-    "Aundh"    
-  ],    
-  "priceRange":"₹₹",    
-  "description":"Professional RCC core cutting, wall cutting, slab cutting and concrete drilling services in Pune."    
-}    
-</script>  </body>    
-    </html> 
+</script> 
+
+<script type="application/ld+json">
+{
+  "@context":"https://schema.org",
+  "@type":"LocalBusiness",
+  "name":"Shiv Core Cutting Services",
+  "image":"https://shivcorecutting.com/images/core-cutting-pune.webp",
+  "url":"https://shivcorecutting.com",
+  "telephone":"+918390825091",
+  "address":{
+    "@type":"PostalAddress",
+    "streetAddress":"Khadi Machine Chowk, Kondhwa",
+    "addressLocality":"Pune",
+    "addressRegion":"Maharashtra",
+    "postalCode":"411048",
+    "addressCountry":"IN"
+  },
+  "areaServed":[
+    "Kondhwa",
+    "Hadapsar",
+    "Wakad",
+    "Kharadi",
+    "Kothrud",
+    "Yerwada",
+    "Aundh"
+  ],
+  "priceRange":"₹₹",
+  "description":"Professional RCC core cutting, wall cutting, slab cutting and concrete drilling services in Pune."
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context":"https://schema.org",
+  "@type":"Blog",
+  "name":"Shiv Core Cutting Blog",
+  "url":"https://shivcorecutting.com/blog",
+  "description":"Latest blogs about RCC core cutting, slab drilling and wall cutting services in Pune.",
+  "publisher":{
+    "@type":"Organization",
+    "name":"Shiv Core Cutting Services",
+    "logo":{
+      "@type":"ImageObject",
+      "url":"https://shivcorecutting.com/images/shiv-core-cutting.webp"
+    }
+  }
+}
+</script>
+
+<script>
+function toggleMenu(){
+    var nav = document.getElementById("nav");
+    if(window.innerWidth < 768){
+        nav.style.display =
+        (nav.style.display === "flex") ? "none" : "flex";
+    }
+}
+
+document.querySelectorAll("#nav a").forEach(link => {
+    link.addEventListener("click", () => {
+        if(window.innerWidth < 768){
+            document.getElementById("nav").style.display = "none";
+        }
+    });
+});
+</script>
+
+   </body>    
+ </html> 
